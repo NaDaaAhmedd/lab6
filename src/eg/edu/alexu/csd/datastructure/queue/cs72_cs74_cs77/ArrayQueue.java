@@ -53,10 +53,4 @@ public class ArrayQueue implements IArrayBased {
 		}
 	}
 
-	public void show() {
-		for (int i = 0; i < n; i++) {
-			System.out.print(Q[(front + i + 1) % n] + " ");
-		}
-	}
-
 }
