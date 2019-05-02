@@ -43,14 +43,6 @@ public class LinkedListQueue implements ILinkedBased {
 		}
 	}
 
-	public void show() {
-		Node n = front;
-		while (n.next != null) {
-			System.out.println(n.data);
-			n = n.next;
-		}
-		System.out.println(n.data);
-	}
 }
 
 class Node {
