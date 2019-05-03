@@ -1,6 +1,6 @@
 package eg.edu.alexu.csd.datastructure.queue.cs72_cs74_cs77;
 
-public class ArrayQueue implements IArrayBased {
+public class ArrayQueue implements IQueue , IArrayBased {
 	private int n;
 	private Object[] Q;
 
