@@ -1,6 +1,6 @@
 package eg.edu.alexu.csd.datastructure.queue.cs72_cs74_cs77;
 
-public class LinkedListQueue implements ILinkedBased {
+public class LinkedListQueue implements IQueue, ILinkedBased {
 	private Node front;
 	private int size;
 
